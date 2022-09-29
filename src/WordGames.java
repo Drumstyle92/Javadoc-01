@@ -17,10 +17,10 @@ public class WordGames {
      *
      * @param name The parameter where the name is to be assigned.
      * @param surname The parameter where the surname is to be assigned.
-     * @return The return is void.
+     * The return is void.
      * The method in question is used to print the name and surname.
      */
-    void getFullName(String name,String surname){
+    public void getFullName(String name,String surname){
         System.out.println(name + surname);
     }
 }
